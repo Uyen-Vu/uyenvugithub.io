@@ -1,0 +1,13 @@
+.item{
+    height: 18px;
+    overflow: hidden;
+    width: 100px;
+}
+.row1{
+    width: 100px;
+    height: 40px;
+    overflow: hidden;
+}
+.sub-item{
+    margin-top: -18px;
+}

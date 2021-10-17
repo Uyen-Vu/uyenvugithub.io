@@ -1,0 +1,10 @@
+RewriteEngine On
+
+RewriteRule "trangchu.html" "trangchu.php"
+
+RewriteRule "^the-loai-([0-9]+).html$" "list.php?maloai=$1"
+
+RewriteRule "timkiem.html" "timkiem.php"
+
+RewriteRule "^tin-tuc-so-([0-9]+).html$" "detail.php?MaTin=$1"
+
